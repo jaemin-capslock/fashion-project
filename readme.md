@@ -2,17 +2,14 @@
 
 Used [this](https://www.kaggle.com/code/pavelgot/items-classification-pytorch/data) dataset.
 
-Objectives:
+For the React & Node.js webapp, go to [this]() link.
 
-* Teach myself PyTorch
-* Understand RESTful API, AWS Lambda and some backend
-* Learn React for building basic Frontend.
+This repository contains the code that I used to preprocess the above dataset, training the model using PyTorch, and functions to parse model output.
 
-## To do
 
-1. Explore dataset and clean up, make it train-ready.
-2. Learn Pytorch.
-3. Learn React, brush up Node and set up basic frontend.
-4. Learn RESTful API and Lambda, start making calls.
-5. Practice with Google Colab, and use AWS EC2 to train once ready.
+![image](app-example.png)
+
+When given an image with a clothing, the ML model returns the predicted gender, cloth type, and color of the cloth in the image.
+
+There are 5 categories for gender (Men, Women, Boys, Girls, Unisex), 40 categories for cloth type, and 21 categories for color.
 
